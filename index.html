@@ -128,6 +128,16 @@ footer nav{all:unset}
 .contact .addr{margin:22px auto 4px}.contact .addr+.btn{margin-top:12px}
 .about-addr{text-align:center;color:var(--p);margin:-14px auto 34px}.about-addr .addr{margin:0}
 footer .addr{margin:6px auto 4px;font-size:.92rem}footer .pin{width:20px;height:20px}
+.doc .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:center}
+.dframe{max-width:340px;width:100%;margin:auto;aspect-ratio:4/5;border-radius:170px 170px 24px 24px;overflow:hidden;border:1.5px solid var(--g);background:radial-gradient(circle at 70% 20%,#7a2a7a,var(--p) 60%,#3e083e);box-shadow:0 20px 50px rgba(90,15,90,.25);display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--g);text-align:center;gap:6px}
+.dframe b{font:700 3rem Montserrat;letter-spacing:.1em}.dframe small{font:600 .8rem Montserrat;letter-spacing:.18em;color:#fff;opacity:.85}
+.dname{margin:6px 0 2px;font:700 1.15rem Montserrat;color:var(--p);letter-spacing:.06em}
+.doc .sub{color:#8a6d10;font-weight:600;margin-bottom:12px}
+.doc p.t{color:#5d4a5d;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 24px}
+.chips span{display:flex;align-items:center;gap:8px;padding:6px 14px 6px 12px;border:1px solid rgba(212,175,55,.6);border-radius:30px;background:#fff;color:var(--p);font-weight:600;font-size:.9rem}
+.chips svg{width:20px;height:20px;stroke:var(--g);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:860px){.doc .wrap{grid-template-columns:1fr;text-align:center}.dframe{max-width:240px}.chips{justify-content:center}}
 </style>
 </head>
 <body>
@@ -173,6 +183,17 @@ footer .addr{margin:6px auto 4px;font-size:.92rem}footer .pin{width:20px;height:
 <p style="margin:12px 0 22px">لأن يومك الخاص يستحق عناية خاصة، نوفر جلسات مخصصة للعروسة. تواصلي معنا عبر واتساب لمعرفة التفاصيل وتحديد الأنسب لكِ بعد تقييم مختص.</p>
 <a class="btn btn-p" href="#" data-book="جلسات العروسة">احجزي الآن</a></div>
 </div></section>
+
+<section class="doc" id="doctor"><div class="wrap">
+<div class="dframe rv" role="img" aria-label="الدكتورة نهاد هاشم"><b>NH</b><small>DR. NIHAD HASHIM</small></div>
+<div class="rv"><div class="sub" style="margin-bottom:0">تعرفي على الدكتورة</div><h2><span dir="ltr" style="unicode-bidi:isolate">Meet Dr. Nihad Hashim</span></h2>
+<div class="dname" style="margin:10px 0 16px;color:#8a6d10;font-weight:600;letter-spacing:.04em"><span dir="ltr" style="unicode-bidi:isolate">Your Beauty, Our Attention to Details.</span></div>
+<p class="t">الدكتورة نهاد هاشم تقدم مجموعة متنوعة من الجلسات والإجراءات التجميلية، مع الاهتمام بأدق التفاصيل واختيار ما يناسب طبيعة واحتياجات كل حالة.</p>
+<p class="t">تشمل الخدمات جلسات الفيشال بمختلف أنواعها، والبلازما، والميزوثيرابي، والفيلر، والبوتوكس، بالإضافة إلى مختلف الإجراءات التجميلية.</p>
+<p class="t">وتؤمن الدكتورة بأن الجمال الحقيقي يكمن في التناسق والطبيعية؛ لذلك تحرص على تقديم عناية مخصصة لكل حالة، بهدف إبراز جمالك والحفاظ على مظهرك الطبيعي دون مبالغة.</p>
+<div class="chips"><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M8.5 14c1 1.500 2 2 3.500 2s2.500-.5 3.500-2M9 10h.01M15 10h.01"/></svg>جلسات الفيشال</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3 4 6 7 6 10.500a6 6 0 0 1-12 0C6 10 9 7 12 3z"/></svg>البلازما (PRP)</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l5-5M8 12l4 4M10 10l7-7 4 4-7 7M14 6l4 4"/></svg>الميزوثيرابي</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3 4 6 7 6 10.500a6 6 0 0 1-12 0C6 10 9 7 12 3z"/><path d="M12 11v6M9 14h6"/></svg>الفيلر</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.800 5.200L19 10l-5.200 1.800L12 17l-1.800-5.200L5 10l5.200-1.800z"/></svg>البوتوكس</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="18" cy="12" r="1"/></svg>وغيرها</span></div>
+<a class="btn btn-p" href="#" data-book="استشارة مع الدكتورة نهاد هاشم">احجزي استشارتك الآن</a>
+</div></div></section>
 
 <section id="about"><div class="wrap">
 <div class="head rv"><span class="en">ABOUT ELENA CLINIC</span><h2>عن ELENA Clinic</h2></div>
